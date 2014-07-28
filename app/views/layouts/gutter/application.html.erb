@@ -11,10 +11,7 @@
   <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <% ['application', 'bootstrap.min.css', 'bootstrap-responsive.min.css', 'font-awesome/css/font-awesome.min.css', 'style.css', 'pages/dashboard.css', 'odometer.css'].each do |css| %>
-      <%= stylesheet_link_tag "gutter/#{css}", media: "all" %>
-  <% end %>
-  <%= stylesheet_link_tag "gutter/application", :media => "all" %>
+  <%= stylesheet_link_tag "gutter/application", media: :all %>
   <%= javascript_include_tag "gutter/application" %>
 
   <%= csrf_meta_tags %>
