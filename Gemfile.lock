@@ -11,8 +11,6 @@ PATH
   specs:
     gutter (1.0.0)
       jquery-datatables-rails
-      jquery-rails
-      jquery-ui-rails
 
 GEM
   remote: https://rubygems.org/
