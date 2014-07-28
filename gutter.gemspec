@@ -16,7 +16,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n").reject { |f| f =~ /^test|^dummy/ }
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.test_files = Dir["test/**/*"]
-  s.add_dependency 'jquery-rails'
-  s.add_dependency 'jquery-ui-rails'
   s.add_dependency 'jquery-datatables-rails'
 end

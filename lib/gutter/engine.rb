@@ -8,7 +8,7 @@ module Gutter
     isolate_namespace Gutter
 
     initializer "gutter.assets.precompile" do |app|
-      app.config.assets.precompile += %w(gutter/application.css gutter/application.js)
+      app.config.assets.precompile += %w(gutter.css gutter.js)
     end
   end
 end
